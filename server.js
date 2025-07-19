@@ -16,4 +16,6 @@ app.use(express.json());
 
 app.use("/auth", authRouter);
 
+app.get("/", "home page")
+
 app.listen(3000);
